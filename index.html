@@ -2,12 +2,43 @@
 <html>
 <head>
 	<link rel='stylesheet' href='style.css'/>
+	<script src='script.js'></script>
 	<title>Run Calculator</title>
 </head>
-
+<header>
+	<h1>Scott's Fantastic Run Calculator</h1>
+</header>
 <body>
-	<h1>The Run Week Scheduler</h1>
-	<script src='script.js'></script>
+	<form action="index.html" method="post">
+		<fieldset>
+			<label for="mileage">Weekly Mileage Goal:</label>
+			<input type="number" min="20" id="mileage" step="5" name="user_mileage">
+
+			<label for="longRun">Long Run Percent (20-25%):</label>
+			<input type="text" min="20" max="25" id="longRun" name="user_longRun">
+
+			<label for="mileage">Number of Run Sessions:</label>
+			<input type="number" min="6" max="13" id="sessions" name="weekly_mileage">
+
+			<label for="longRunDay">What Day is Your Long Run?</label>
+			<select type="id="mileage" name="weekly_mileage">
+				<optgroup label="Days">
+					<option value="sunday">Sunday</option>
+					<option value="monday">Monday</option>
+					<option value="tuesday">Tuesday</option>
+					<option value="wednesday">Wednesday</option>
+					<option value="thursday">Thursday</option>
+					<option value="friday">Friday</option>
+					<option value="saturday">Saturday</option>		
+				</optgroup>
+			</select>
+			<button>Calculate</button>
+		</fieldset>
+	</form>
+
+
+	
+
 
 </body>
 </html>
