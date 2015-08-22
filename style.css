@@ -24,10 +24,12 @@ fieldset select {
 	margin: 15px 0px;
 }
 
-
-
 button {
 	display: block;
 	margin: 15px auto;
 	padding: 10px 20px;
+}
+
+.advanced {
+	/*display: none;*/
 }
