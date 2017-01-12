@@ -5,18 +5,33 @@
    ========================================================================== */
 
 .input-fields { 
-	background-color: #EF4836;
+	background-color: #1abc9c;
 	border-radius: 10px;
-
+	color: #ECF0F1;
 }
-
 
 .form-group {
-	font-size: 25px;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
+.form-group h2 {
+	
+}
 
+.form-mileage {
+	font-size: 95px;
+	height: 82px;
+	margin: auto;
+	max-width: 190px;
+	min-width: 190px;
+	background-color: #26ecc5;
+}
 
+.row {
+	  margin-right: 25px;
+    margin-left: 25px;
+}
 
 
 
