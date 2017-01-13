@@ -6,7 +6,6 @@
 
 .input-fields { 
 	background-color: #1abc9c;
-	border-radius: 10px;
 	color: #ECF0F1;
 }
 
@@ -27,6 +26,17 @@
 	min-width: 190px;
 	background-color: #26ecc5;
 }
+
+.flex-first {
+	-webkit-order: -1;
+	order: -1; 
+}
+.flex-last {
+	-webkit-order: 0;
+	order: 0; 
+}
+
+
 
 .row {
 	  margin-right: 25px;
